@@ -106,7 +106,7 @@ public class LoginForm extends javax.swing.JFrame {
         String username = jTextField1.getText();
         String password = jTextField2.getText();
 
-        if ("Axel".equals(username) && "Millet".equals(password)) {
+        if ("admin".equals(username) && "admin".equals(password)) {
                         JOptionPane.showMessageDialog(this, "Succesful login", "Log on", JOptionPane.INFORMATION_MESSAGE);
             PRH prh = new PRH();
             prh.setVisible(true);
